@@ -156,3 +156,17 @@ tr:nth-child(even) { background: rgba(122,209,255,0.03); }
 .author-name a { color: var(--link); }
 .author-credentials { font-size: 14px; color: var(--muted); margin-top: 2px; }
 .author-note { font-size: 13px; color: var(--muted); margin-top: 8px; line-height: 1.6; }
+.quality-note,
+.faq-box {
+  margin: 18px 0 22px;
+  padding: 16px 18px;
+  border-radius: 14px;
+  border: 1px solid rgba(122, 209, 255, 0.22);
+  background: linear-gradient(135deg, rgba(122,209,255,0.08), rgba(255,209,102,0.05));
+}
+.quality-note p,
+.faq-box p { margin: 8px 0; }
+.quality-note ul,
+.faq-box ul { margin: 10px 0 0; padding-left: 22px; }
+.quality-note li,
+.faq-box li { margin: 6px 0; }
